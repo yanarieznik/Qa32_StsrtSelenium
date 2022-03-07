@@ -29,11 +29,21 @@ public class TableTest {
       WebElement item1 = wd.findElement(By.cssSelector("[href='#item1']"));
       WebElement item2 = wd.findElement(By.cssSelector("[href='#item2']"));
       WebElement item3 = wd.findElement(By.cssSelector("[href='#item3']"));
-    // WebElement item4 = wd.findElement(By.cssSelector("#nav ul li:last-child"));
+      WebElement item5 = wd.findElement(By.cssSelector("#nav ul li:last-child"));
       WebElement item4 = wd.findElement(By.cssSelector("[href='#item4']"));
       WebElement inputName =wd.findElement(By.cssSelector("[placeholder='Type your name']"));
       WebElement inputName2 =wd.findElement(By.cssSelector("[name='surename']"));
-    //  WebElement but = wd.findElement(By.ByCssSelector("[.'btn']"));
+      WebElement but = wd.findElement(By.cssSelector("[class='btn']"));
+      WebElement table1 = wd.findElement(By.cssSelector("#country-table tr td:first-child"));
+      WebElement table2 = wd.findElement(By.cssSelector("#country-table tr td:nth-child(1)"));
+      WebElement table3 = wd.findElement(By.cssSelector("#country-table tr td:last-child"));
+      WebElement red = wd.findElement(By.cssSelector("#alert"));
+
+
+
+
+
+
 
 
 
